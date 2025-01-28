@@ -4,14 +4,17 @@
 
 }
 body{
-  background-color: aquamarine;
-  
+  background-color: rgb(177, 177, 177);
+  font-family: cursive;
+}
+
+
 
 .card{ 
   width: 90%;
   max-width: 450px;
   border-radius: 50px;
-  background-color: rgb(244, 186, 111);
+  background-color: rgba(25, 151, 130, 0.639);
   text-align: center;
   padding:30px 30px;
   color: black;
@@ -79,9 +82,10 @@ width: 20px;
   display: flex;
   align-items: center;
   text-align: left;
+  margin-right: 25px;
 }
 .col img{
-  width: 40px;
+  width: 60px;
   margin-right:10px;
   
 }
@@ -91,14 +95,16 @@ margin-top: 26px;
 padding-bottom: -90px;
 }
 
-.
-/* .weather img{
-  height: 220px;
-  background-color:  ;
-  overflow: hidden;
-  opacity: 20px;
-  
+.weather{
+  display: none;
 
+}
 
+.error{
+  text-align: left;
+  margin-left: 14px;
+  margin-top: 10px;
+  font-size: 28px;
+  display: none;
 
-} */
+}
